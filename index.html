@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css">
+    <title>GTU Robotics Club</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <img src="./assets/images/logo.png" id="logo">
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul id="nav-ul">
+                <li>
+                    <a href="#what-we-do">What we do?</a>
+                </li>
+                <li>
+                    <a href="#achievements">Achievements</a>
+                </li>
+                <li>
+                    <a href="#about-us">About Us</a>
+                </li>
+                <li>
+                    <a href="#contact-us">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <header id="home">
+            <!-- <img id="logo" src="./assets/images/logo.png"> -->
+            <h1>GTU ROBOTICS CLUB</h1>
+            <p>We Learn <span>|</span> We Create <span>|</span> We Teach</p>
+            <a href="https://forms.gle/tXvc6ktevtTS2u7q9" target="popup" class="button">Join Us</a>
+        </header>
+        <section id="what-we-do" class="sections">
+            <h2>What We Do?</h2>
+            <!-- Panaroma Images -->
+            <div class="container-do">
+                <div id="panorama">
+                    <script>
+                        pannellum.viewer('panorama', {
+                            "type": "equirectangular",
+                            "panorama": "./assets/images/360.JPG",
+                            "autoLoad": true
+                        });
+                    </script>
+                </div>
+                <div class="what-we-do-content">
+                    <p>GRC provides opportunities for students of all backgrounds to get hands-on experience in Computer Science, Robotics, and Engineering through exciting & challenging competitions such as ABU ROBOCON, Mitsubishi Electric Cup, E-Yantra,
+                        Hackathons. Inspired by the vision of stability and productivity our dedicated Mechanical team has a comprehensive range of experience in the field of Designing and Fabrication. We are specialised in a broad range of latest- technology
+                        engineering tools as well as mechanical technology products designed and rigorously tested for sustainability, productivity and stability.
+                    </p>
+                    <p>Our circuitry field is guided by our five core values: PCB Designing, Hardware Assembly, Prototyping, Testing and Final Circuitry along with accuracy and Software implementation. The journey of our robot starts with PCB designing using
+                        some of the finest CAM software by developing custom made PCB for exactness. We design and print PCBs inhouse by keeping the rules for PCB designing into consideration. Some small PCBs are also etched by hand. After this, the PCBs
+                        go for Hardware Assembly of prototype and testing. The prototype model undergoes testing in every condition so that the required task is been performed with minimum error. This process is been performed until we achieve the highest
+                        gain with our algorithms and software implementation from our software team.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="achievements" class="sections">
+            <!-- <h2>Achievements</h2> -->
+            <div class="slider">
+                <div class="slide current">
+                    <div class="content">
+                        <h1>2022</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati tempore quo, dolore laborum cumque atque!</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <h1>Slide Two</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati tempore quo, dolore laborum cumque atque!</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <h1>Slide Three</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati tempore quo, dolore laborum cumque atque!</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <h1>Slide Four</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati tempore quo, dolore laborum cumque atque!</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <h1>Slide Five</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati tempore quo, dolore laborum cumque atque!</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <h1>Slide Six</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati tempore quo, dolore laborum cumque atque!</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <h1>Slide Seven</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati tempore quo, dolore laborum cumque atque!</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <h1>Slide Eight</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati tempore quo, dolore laborum cumque atque!</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="prev">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button id="next">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="about-us" class="sections">
+            <h2>About Us</h2>
+            <div class="intro">
+                <p>Our vision is to build essential skills such as Teamwork, Team Spirit, Management work, Pressure handling skills, Decision-making skills, Extensive gain of technical knowledge, Circuit designing skills & Programming skills among students.
+                    Mission of GTU ROBOTICS CLUB is to provide an opportunity to young, enthusiastic, and talented engineering students, to showcase their passion in ROBOTICS by participating in National/International Robotics competition.</p>
+                <p>We provide opportunities for students of all backgrounds to get hands-on experience of Computer Science, Robotics, and Engineering through exciting, challenging competitions. We strive for all-round development of students by building
+                    essential skills such as Technical, Pressure work handling and Management among students.</p>
+            </div>
+            <h2>Special Thanks</h2>
+            <div class="sponsors">
+                <ul class="sponsors-ul">
+                    <li>
+                        <a href="http://incubator.gtu.ac.in/cic3-2/" target="popup"><img src="./assets/images/CIC3.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://dreampolymers.com/" target="popup"><img src="./assets/images/Dream_Polymers.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.duchofilla.com/" target="popup"><img src="./assets/images/Ducho_Fila.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.mahitx.com/" target="popup"><img src="./assets/images/MahitX.png"></a>
+                    </li>
+                    <li>
+                        <a href="http://lunarmotors.com/" target="popup"><img src="./assets/images/Lunar_Motors.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.pcbpower.com/" target="popup"><img src="./assets/images/PCB_Power.png"></a>
+                    </li>
+                    <li>
+                        <a href="http://gtu.ac.in/" target="popup"><img src="./assets/images/GTU.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact-us" class="sections">
+            <h2>Contact Us</h2>
+            <ul>
+                <li>
+                    <a href="mailto:gturobocon@gmail.com"><i class="far fa-envelope"></i></a>
+                </li>
+                <li>
+                    <a href="tel:+917574801054"><i class="fas fa-phone"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/dir/23.1068646,72.5935468/IIT+Gandhinagar+Temporary+Shed+2,+Nigam+Nagar,+Chandkheda,+Ahmedabad,+Gujarat+382424/@23.1069016,72.5912573,17z/data=!3m1!4b1!4m10!4m9!1m1!4e1!1m5!1m1!1s0x395e83ca46c8e963:0xd5d6c946b7104e64!2m2!1d72.5933559!2d23.1069632!3e0"
+                        target="popup"><i class="fas fa-location-arrow"></i></a>
+                </li>
+            </ul>
+            <div class="cols">
+                <div class="contact_us_col_1">
+                    <h2>Inquiries</h2>
+                    <p>For any inquiries, questions or commendations, please call: +91-9724082290</p>
+                </div>
+                <div class="contact_us_col_2">
+                    <h2>Our Mentor</h2>
+                    <p>Prof. Raj Hakani</p>
+                    <p>ap_raj@gtu.edu.in</p>
+                    <p>gturobocon@gmail.com</p>
+                    <p>+91 757 480 1054</p>
+                </div>
+                <div class="contact_us_col_3">
+                    <h2>Workspace</h2>
+                    <p>Shed No.2, Nr. Visat Circle, Sabarmati-Koba Highway, Chandkheda, Ahmedabad, Gujarat 382424</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer" class="sections">
+            <!-- <h2>Contact Us</h2> -->
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/gturobocon/" target="popup"><i class="fab fa-facebook"></i></a></i>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCTgmYGWhILkpIiIZerIx0cA" target="popup"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/gturoboticsclub/" target="popup"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+            <p>Made with <span style="color: #fff;">&#9829;</span> by GTU Robotics Club</p>
+        </section>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
